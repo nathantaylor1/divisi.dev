@@ -1,242 +1,441 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<title>Nathan Taylor's Portfolio</title>
-		<link rel="shortcut icon" href="assets/css/images/favicon.png" type="image/png">
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#projects">Portfolio</a></li>
-							<li><a href="#aboutme">About Me</a></li>
-							<li><a href="#contactme">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+  <title>N. Taylor's Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<img src="assets/css/images/prof.jpg" class="profile-pic" width="400" style="border: 16px solid white">
-							<h1>Nathan Taylor (he/him)</h1>
-							<h3>
-								Computer Science Student @ University of Michigan -- Ann Arbor
-							</h3>
-							<!-- <ul class="actions">
-								<li><a href="#one" class="button scrolly">Check out my Projects Here!</a></li>
-							</ul> -->
-						</div>
-					</section>
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-				<!-- projects -->
-					<section>
-					<section id="projects" class="wrapper style2 spotlights">
-						<!-- Hack Attack: Code Corruption -->
-						<section>
-							<a href="#" class="image"><img src="projects/hacc/hacc.PNG" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Hack Attack: Code Corruption <img class="scale" src="projects/hacc/Icon.png"></h2>
-									</video>
-									<p>
-										In this puzzle-platformer, you have the ultimate control: to hack the game's source code. Customize your controller through a block-based coding system. 
-										Discover new code blocks to discover new attacks, homing bullets, and even flight. Build your army of undead office supplies by reprogramming your 
-										enemies to aid you in your escape.
-									</p>
-									<p>
-										Project 3 in EECS 494 at the University of Michigan. Our group of 5 had 6 weeks to make a game, and this is what we came up with. 
-										Our game participated at the <a href="https://494showcase.com/" target="_blank">EECS 494 Showcase</a> on 4/19/2022.
-									</p>
-									<h3>Check Out Our Trailer!</h3>
-									<iframe width="560" height="315" src="https://www.youtube.com/embed/Nv24WX8VK94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									<h3>Check Out Our Game Here!</h3>
-									<ul class="actions">
-										<li><a href="https://jbusa22.itch.io/hack-attack-code-corruption" class="button" target="_blank">On itch.io</a></li>
-										<li><a href="https://gamejolt.com/games/hackattack/710520" class="button" target="_blank">On GameJolt</a></li>
-									</ul>
-									<h2>Clumsy Elephant Studios <img class="scale" src="projects/hacc/ClumsyElephantIcon.png"></h2>
-									<ul>
-										<li>Jack Busa (jbusa@umich.edu)</li>
-										<li>Matthias Claassen (mwclaass@umich.edu)</li>
-										<li>Elizabeth Pritchard (lizap@umich.edu)</li>
-										<li>Robert Sorkin (rsorkin@umich.edu)</li>
-										<li>Nathan Taylor (nntaylor@umich.edu)</li>
-									</ul>
-									<h3>Freelancers</h3>
-									<ul>
-										<li>Audio: Aaron Kofsky (aaronko@umich.edu)</li>
-										<li>Art: Mariana Ortiz Luna (mortluna@umich.edu)</li>
-									</ul>
-								</div>
-							</div>
-						</section>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-						<!-- Blocky Battle Arena -->
-						<section>
-							<a href="#" class="image"><img src="projects/bba/bba.PNG" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Blocky Battle Arena</h2>
-									<p>Project 2 in EECS 494 at the University of Michigan was to develope a game by ourselves given a two week window.
-										Blocky Battle Arena is what I came up with. The game centers around a tank in a procedurally generated map.
-										Defeat enemies and collect coins to gain points. Don't let the enemies shoot you back!
-									</p>
-									<ul class="actions">
-										<li><a href="projects/bba/WebGL/index.html" class="button" target="_blank">Play In Browser!</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-						<!-- Metroid Recreation -->
-						<section>
-							<a href="#" class="image"><img src="projects/metroid/metroid.PNG" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Metroid Recreation</h2>
-									<p>Project 1 in EECS 494 at the University of Michigan. Our group of 2 implemented the first area of Metroid for the NES in the Unity Game Engine,
-										added a custom mechanic and built a new level based off of that mechanic.</p>
-									<ul class="actions">
-										<li><a href="projects/metroid/WebGLBuild/index.html" class="button" target="_blank">Play In Browser!</a></li>
-										<!-- <li><a href="#" class="button">Download (Windows & Mac)</a></li> TODO -->
-									</ul>
-									<h3>Credits:</h3>
-									<ul>
-										<li>Nathan Taylor (nntaylor@umich.edu)</li>
-										<li>Robert Sorkin (rsorkin@umich.edu)</li>
-									</ul>
-								</div>
-							</div>
-						</section>
+  <!-- =======================================================
+  * Template Name: DevFolio - v4.7.1
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
 
-					</section>
+<body>
 
-				<!-- aboutme -->
-					<section id="aboutme" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>About Me</h2>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
 
-							<p>
-								I'm <b>Nate (he/him)</b>, i'm studying Computer Science at the University of Michigan with an intended graduation date of May 2023.
-								My passions in Computer Science include Software design and development, Artificial Intelligence, Machine Learning, Computer Vision, 
-								and Game Development.
-							</p>
+      <h1 class="logo"><a href="index.html">N. Taylor</a></h1>
 
-							<h3>
-								Clubs/Activities:
-								<a href="https://igda.org/" target="_blank">IGDA</a>,
-								<a href="https://www.michhackers.com/" target="_blank">Michigan Hackers</a>,
-								<a href="https://www.wolverinesoft.org/" target="_blank">WolverineSoft</a>,
-								<a href="https://www.mstem.umich.edu/" target="_blank">MSTEM</a>,
-								<a href="https://umdearborn.edu/admissions/undergraduate/admitted-students/orientation/orientation-leaders#:~:text=The%20OL%20assists%20with%20all,marketability%20for%20future%20employment%20opportunities." target="_blank">Student Orientation Leader (FA 2022)</a>
-							</h3>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li class="dropdown"><a href="#work"><span>Portfolio</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="jd.html">Jungle Defense</a></li>
+              <li><a href="hacc.html">Hack Attack: Code Corruption</a></li>
+              <li><a href="bba.html">Blocky Battle Arena</a></li>
+              <li><a href="metroid.html">NES Metroid Recreation</a></li>
+            </ul>
+          </li>
+          <!-- <li><a class="nav-link scrollto " href="#blog">Blog</a></li> -->
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
 
-							<h3>Notable Classes:</h3>
-							<p>
-								🟡 EECS 201 -- Computer Science Pragmatics, ✔️ EECS 203 -- Discrete Mathematics, ✔️ EECS 280 -- Programming and Introductory Data Structures, 
-								✔️ EECS 281 -- Data Structures and Algorithms, ✔️ EDUC 333 -- Video Games & Learning, ✔️ EECS 370 -- Introduction to Computer Organization, 
-								🟡 EECS 376 -- Foundations of Computer Science, ✔️ EECS 388 -- Introduction to Computer Security, 🟡 EECS 442 -- Computer Vision, 
-								🟡 EECS 445 -- Intro to Machine Learning, ✔️ EECS 494 -- Computer Game Design and Development
-							</p>
-							<p>✔️ = Completed, 🟡 = In Progress</p>
-						
-						</div>
-					</section>
+    </div>
+  </header>
+  <!-- End Header -->
 
-				<!-- contactme -->
-					<section id="contactme" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Contact</h2>
-							<p>If you're interested in talking more about my projects or game development in general, reach out to me!</p>
-							<div class="split style1">
-								<!-- <section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section> -->
-								<section>
-									<ul class="contact">
-										<!-- <li>
-											<h3>Address</h3>
-											<span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
-											USA</span>
-										</li> -->
-										<li>
-											<h3>Email</h3>
-											<a href="mailto:nntaylor@umich.edu">nntaylor@umich.edu</a>
-										</li>
-										<!-- <li>
-											<h3>Phone</h3>
-											<span>(000) 000-0000</span>
-										</li> -->
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="https://www.linkedin.com/in/nathantaylor21" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
-												<li><a href="https://github.com/nathantaylor1" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="hero-title mb-4">Nathan Taylor</h1>
+          <!--<p class="hero-subtitle"><span class="typed" data-typed-items="Game Developer, AI & ML Programmer"></span></p> TODO -->
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Hero Section -->
 
-			</div>
+  <main id="main">
 
-		<!-- Footer 
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
-		-->
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        <img src="assets/img/profile.png" class="img-fluid rounded b-shadow-a" alt="">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-7">
+                      <div class="about-info">
+                        <p><span class="title-s">Name: </span> <span>Nathan Taylor</span></p>
+                        <p><span class="title-s">Profile: </span> <span>Game Developer</span></p>
+                        <p><span class="title-s">Email: </span> <span>nntaylor@umich.edu</span></p>
+                        <p><span class="title-s">Phone: </span> <span>(517) 392-0292</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        About me
+                      </h5>
+                    </div>
+                    <p class="lead"> <!-- TODO -->
+                      Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
+                      imperdiet et, porttitor
+                      at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
+                      porttitor accumsan tincidunt.
+                    </p>
+                    <p class="lead"> <!-- TODO -->
+                      Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
+                      porttitor volutpat. Vestibulum
+                      ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+                    </p>
+                    <p class="lead"> <!-- TODO -->
+                      Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                      Nulla porttitor accumsan
+                      tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <!-- ======= Portfolio Section ======= -->
+    <section id="work" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Portfolio
+              </h3>
+              <p class="subtitle-a">
+                
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Portfolio Item 1: Jungle Defense -->
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/jungle-defense/splash-screen.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/jungle-defense/splash-screen.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Jungle Defense</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">2D Unity Project</span> | <span class="w-date">June 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="jd.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item 2: Hack Attack: Code Corruption -->
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/hacc/hacc-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/hacc/hacc-1.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Hack Attack: Code Corruption</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">2D Unity Project</span> | <span class="w-date">April 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="hacc.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item 3: Blocky Battle Arena -->
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/bba/bba-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/bba/bba-1.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Blocky Battle Arena</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">2D Unity Project</span> | <span class="w-date">March 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="bba.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item 4: NES Metroid Recreation -->
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/metroid/metroid-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/metroid/metroid-1.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">NES Metroid Recreation <br> + Custom Level & PowerUp</h2>
+                    <div class="w-more"> <span class="w-ctegory">2D Unity Project</span> | <span class="w-date">Feb. 2022</span> </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="metroid.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item 5: NONE -->
+          <!--
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-5.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Studio Lena Mado</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          -->
+          <!-- Portfolio Item 6: NONE -->
+          <!--
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-6.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Studio Big Bang</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          -->
+        </div>
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
 
-	</body>
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        Send Message Us
+                      </h5>
+                    </div>
+                    <div>
+                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12 text-center my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                          </div>
+                          <div class="col-md-12 text-center">
+                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5 class="title-left">
+                        Get in Touch
+                      </h5>
+                    </div>
+                    <div class="more-info">
+                      <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
+                        expedita aperiam aliquid at.
+                        Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
+                        mollitia inventore?
+                      </p>
+                      <ul class="list-ico">
+                        <li><span class="bi bi-geo-alt"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
+                        <li><span class="bi bi-phone"></span> (617) 557-0089</li>
+                        <li><span class="bi bi-envelope"></span> contact@example.com</li>
+                      </ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li><a href=""><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
+                        <li><a href=""><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
+                        <li><a href=""><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
+                        <li><a href=""><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="copyright-box">
+            <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+            <div class="credits">
+              <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+            -->
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
